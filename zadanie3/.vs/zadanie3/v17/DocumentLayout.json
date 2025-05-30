@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\konek\\source\\tp-3-mikolaj_konrad\\zadanie3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1A679509-370B-430A-8F06-F62005546C1F}|zadanie3.vcxproj|C:\\Users\\konek\\source\\tp-3-mikolaj_konrad\\zadanie3\\zadanie3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1A679509-370B-430A-8F06-F62005546C1F}|zadanie3.vcxproj|solutionrelative:zadanie3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "zadanie3.cpp",
+              "DocumentMoniker": "C:\\Users\\konek\\source\\tp-3-mikolaj_konrad\\zadanie3\\zadanie3.cpp",
+              "RelativeDocumentMoniker": "zadanie3.cpp",
+              "ToolTip": "C:\\Users\\konek\\source\\tp-3-mikolaj_konrad\\zadanie3\\zadanie3.cpp",
+              "RelativeToolTip": "zadanie3.cpp",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAqwJsAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-27T11:28:08.833Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
