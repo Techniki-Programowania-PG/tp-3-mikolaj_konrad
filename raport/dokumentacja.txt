@@ -1,0 +1,59 @@
+Konrad El-Hagin, Mikołaj Poździk
+
+zadanie3.cpp:
+	funkcje:
+		gen_sin - generuje sygnał sinusa lub jego pochodnej
+			argumenty:
+				1 - Asymptota
+				2 - częstotliwość
+				3 - krok (odstęp między kolejnymi próbkami)
+				4 - początek próbkowania
+				5 - koniec próbkowania
+				6 - argument wybierający czy wyświetlić sinusa(0), czy jego pochodną(1)
+				7 - argument wybierający czy wypisać przebieg (potrzebny do DTF)
+		gen_cos - generuje sygnał kosinusa lub jego pochodnej
+                        argumenty:
+                                1 - Asymptota
+                                2 - częstotliwość
+                                3 - krok (odstęp między kolejnymi próbkami)
+                                4 - początek próbkowania
+                                5 - koniec próbkowania
+                                6 - argument wybierający czy wyświetlić kosinusa(0), czy jego poch>
+				7 - argument wybierający czy wypisać przebieg (potrzebny do DTF)
+		gen_piloksztaltny -  generuje sygnał piłokształtny lub jego pochodnej
+			argumenty:
+				1 - okres
+				2 - współczynnik kierunkowy części rosnącej/malejącej
+				3 - procent okresu stanowiący krok (odstęp między kolejnymi próbkami)
+				4 - początek próbkowania
+                                5 - koniec próbkowania
+				6 - argument wybierający czy wyświetlić kosinusa(0), czy jego po>
+				7 - argument wybierający czy wypisać przebieg (potrzebny do DTF)
+		gen_prostokatny -  generuje sygnał piłokształtny lub jego pochodnej
+			argumenty:
+				1 - okres
+                                2 - współczynnik kierunkowy części rosnącej/malejącej
+                                3 - procent okresu stanowiący krok (odstęp między kolejnymi prób>
+                                4 - początek próbkowania
+                                5 - koniec próbkowania
+                                6 - argument wybierający czy wyświetlić kosinusa(0), czy jego po>
+				7 - argument wybierający czy wypisać przebieg (potrzebny do DTF)
+		DTF - Dyskretna Transformata Fouriera - transformuje sygnał
+				1 - transformowany sygnał
+		
+		odw_DTF - odwrotność Dyskretnej Transformaty Fouriera - bieże stransformowany sygnał i podaje sygnał pierwotny
+                                1 - transformowany sygnał
+		filtruj_srednia - filtracja 1D
+				1 - filtrowany sygnał
+
+
+instrukcja postępowania:
+	1. w folderze build włączyć gitbash (np.)
+	2. cmake ..
+	3. cmake --build . --config Release
+	4. za pomocą comand prompta (gitbash na windowsie słabo działa z Pythonem) wejść do folderu Release
+	5. komendy : python 
+	6. import sygnaly
+	7. sygnaly.funkcja(argumenty), aby przetestować funkcje
+	8. do DTF, odw_DTF i filtruj_srednia trzeba użyć innej funkcji z ostatnim argumentem 0, aby najpierw wygenerować sygnał
+

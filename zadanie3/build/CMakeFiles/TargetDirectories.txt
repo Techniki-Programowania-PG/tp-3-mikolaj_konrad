@@ -1,0 +1,4 @@
+C:/Users/konek/source/repos/zadanie3/build/CMakeFiles/sygnaly.dir
+C:/Users/konek/source/repos/zadanie3/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/konek/source/repos/zadanie3/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/konek/source/repos/zadanie3/build/external/pybind11/CMakeFiles/ALL_BUILD.dir

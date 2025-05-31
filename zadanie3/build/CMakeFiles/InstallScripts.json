@@ -1,0 +1,8 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Users/konek/source/repos/zadanie3/build/cmake_install.cmake",
+		"C:/Users/konek/source/repos/zadanie3/build/external/pybind11/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

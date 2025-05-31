@@ -1,0 +1,10 @@
+^C:\USERS\KONEK\SOURCE\REPOS\ZADANIE3\BUILD\CMAKEFILES\055BF95ADB44830F5C1B9587CEF5C9FC\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/konek/source/repos/zadanie3 -BC:/Users/konek/source/repos/zadanie3/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/konek/source/repos/zadanie3/build/Projekt.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
